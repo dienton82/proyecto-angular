@@ -35,10 +35,12 @@ Este proyecto es una aplicación web desarrollada con **Angular** que te permite
 <br><br>**Abre el navegador en** `http://localhost:4301` **para ver la aplicación funcionando.**
 
 
-## Running end-to-end tests
+# Cómo hacer pruebas en el proyecto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Pruebas de funcionalidad con Jasmine/Karma
+Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada parte de la aplicación funcione bien) y **Karma** como una herramienta para correr estas pruebas.
 
-## Further help
 
+## 	Para correr las pruebas:
+`ng test`
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
