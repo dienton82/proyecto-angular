@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "proyecto-limpio": {
+    "proyecto-angular": {  // Cambiado a "proyecto-angular"
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/proyecto-limpio",
+            "outputPath": "dist/proyecto-angular",  // Cambiado a "proyecto-angular"
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "proyecto-limpio:build:production"
+              "buildTarget": "proyecto-angular:build:production"  // Cambiado a "proyecto-angular"
             },
             "development": {
-              "buildTarget": "proyecto-limpio:build:development"
+              "buildTarget": "proyecto-angular:build:development"  // Cambiado a "proyecto-angular"
             }
           },
           "defaultConfiguration": "development"
@@ -93,6 +93,13 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/proyecto-angular/",
+            "repo": "https://github.com/dienton82/proyecto-angular.git"  // El repo correcto
           }
         }
       }

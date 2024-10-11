@@ -6,6 +6,9 @@
 /out-tsc
 /bazel-out
 
+# Excepción para el archivo 404.html
+!dist/proyecto-limpio/browser/404.html
+
 # Node
 /node_modules
 npm-debug.log
