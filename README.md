@@ -54,13 +54,18 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 
 ###	Para correr las pruebas:
 `ng test`
-- **Ejemplo de pruebas E2E con Cypress**  
-![Pruebas E2E](src/assets/screenshots/gif.gif)
+- **Ejemplo de pruebas Jasmine/Karma**  
+![Pruebas E2E](src/assets/screenshots/.gif)
 
 ## Pruebas E2E con Cypress
 
 ### Asegúrate de haber instalado Cypress con:
 `npm install cypress --save-dev`
+
+
+- **Ejemplo de pruebas E2E con Cypress**  
+![Pruebas E2E](src/assets/screenshots/gif2.gif)
+
 
 ## Para abrir Cypress y ejecutar las pruebas:
 `npx cypress open`
