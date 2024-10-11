@@ -35,18 +35,25 @@ Este proyecto es una aplicación web desarrollada con **Angular** que te permite
 <br><br>**Abre el navegador en** `http://localhost:4301` **para ver la aplicación funcionando.**
 
 
-# Cómo hacer pruebas en el proyecto
+## Cómo hacer pruebas en el proyecto
 
 ## Pruebas de funcionalidad con Jasmine/Karma
 Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada parte de la aplicación funcione bien) y **Karma** como una herramienta para correr estas pruebas.
 
-
-## 	Para correr las pruebas:
+###	Para correr las pruebas:
 `ng test`
+
+
+## Pruebas E2E con Cypress
+
+### Asegúrate de haber instalado Cypress con:
+`npm install cypress --save-dev`
+
+## Para abrir Cypress y ejecutar las pruebas:
+`npx cypress open`
 
 ## Si prefieres correr las pruebas sin abrir el navegador, puedes hacerlo con:
 `npx cypress run`
-
 
 ## Descripción de carpetas y archivos
 
