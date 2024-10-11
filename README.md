@@ -56,6 +56,9 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 ###	Para correr las pruebas:
 `ng test`
 
+- **Ejemplo de pruebas  Jasmine/Karma**   
+![Pruebas E2E](src/assets/screenshots/gif5.gif)
+
 
 ## Pruebas E2E con Cypress
 
