@@ -43,4 +43,25 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 
 ## 	Para correr las pruebas:
 `ng test`
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Si prefieres correr las pruebas sin abrir el navegador, puedes hacerlo con:
+`npx cypress run`
+
+
+## Descripción de carpetas y archivos
+
+- **app/core/**: Contiene los servicios principales de la aplicación, como `InMemoryUserService` y `ModuleService`.
+- **app/footer/**: Incluye el componente `FooterComponent`, que es parte del diseño global de la aplicación.
+- **app/user/**: Aquí se encuentran los componentes relacionados con la funcionalidad de usuarios, como `UserListComponent`, `UserFormComponent`, y `UserDetailComponent`.
+- **app/shared/**: Incluye componentes reutilizables en toda la aplicación, como `FollowCursorComponent`.
+- **app.component.ts**: El componente raíz de la aplicación, donde se manejan las vistas principales.
+- **app.routes.ts**: Define la configuración de rutas para la navegación en la aplicación.
+- **assets/**: Contiene recursos estáticos, como imágenes y íconos.
+- **environments/**: Archivos de configuración para los entornos de desarrollo y producción.
+- **styles.css**: Archivo de estilos globales para toda la aplicación.
+
+ # Autor
+Este proyecto fue desarrollado por **Yeison Eduardo Alvarez Garcia**
+
+
+
