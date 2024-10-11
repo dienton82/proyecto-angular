@@ -1,0 +1,97 @@
+/* Estilo para el formulario */
+/* Barra superior fija para el título */
+.fixedNavbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 51;
+  background: linear-gradient(to bottom, rgba(59, 130, 246, 0.29), rgba(0, 0, 0, 0.2)); /* Degradado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.4);
+  border-color: #5a9cff;
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  padding: 15px;
+  text-align: center; /* Centrar el texto */
+}
+
+.title {
+  color: #f9f7f7;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 3px 6px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+/* Estilo del formulario, botones y campos */
+.formContainer {
+  max-width: 600px;
+  margin: 100px auto 0 auto; /* Espacio debajo del navbar */
+  padding: 20px;
+  border: 1px solid #5a5959;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, rgba(155, 171, 194, 0.9), rgba(0, 0, 0, 0.1))!important;
+}
+
+@media (max-width: 768px) {
+.formContainer {
+  max-width: 280px;
+}
+}
+
+.formControl {
+  margin-bottom: 15px;
+}
+
+.formControl label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ebe9e9;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.inputField {
+    width: 96%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #181717;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    transition: opacity 0.3s ease;
+    opacity: 0.5;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}
+
+/* Estilo para los botones */
+.formButton {
+  color: #f9f7f7;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid rgba(59, 130, 256, 0.12);
+  border-radius: 0.5rem;
+  background-color: #5a9cff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 3px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #75bcc7;
+  color: #fff;
+  border: 1px solid #5a9cff;
+}
+
+.formButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

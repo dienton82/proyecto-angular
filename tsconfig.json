@@ -1,7 +1,4 @@
-/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
-/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
-  "compileOnSave": false,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "strict": true,
@@ -22,12 +19,11 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "types": ["cypress"]  // Agrega Cypress aquí para que sea reconocido
   },
-  "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
-  }
+  "include": [
+    "src/**/*",           // Archivos de la aplicación
+    "cypress/**/*.ts"     // Archivos de Cypress
+  ]
 }

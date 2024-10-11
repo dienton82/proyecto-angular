@@ -1,0 +1,30 @@
+<div class="fixedNavbar">
+  <h1 class="title">Detalles del Usuario</h1>
+</div>
+
+<div class="listContainer">
+  <div class="detailSection">
+    <!-- Detalles del Usuario -->
+    <div class="userDetails">
+      <p><strong>Nombre:</strong> {{ user?.name }}</p>
+      <p><strong>Email:</strong> {{ user?.email }}</p>
+      <p><strong>Teléfono:</strong> {{ user?.phone }}</p>
+    </div>
+
+    <!-- Línea divisoria blanca -->
+    <div class="divider"></div>
+
+    <!-- Módulos Asignados -->
+    <div class="userModules">
+      <h1 class="title1">Módulos Asignados</h1>
+      <ul>
+        <li *ngFor="let module of modules">
+          {{ module.title }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Botón para regresar a la lista -->
+  <button class="formButton" (click)="goBackToList()">Volver a la lista</button>
+</div>

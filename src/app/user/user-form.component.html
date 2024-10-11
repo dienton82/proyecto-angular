@@ -1,0 +1,37 @@
+<div class="fixedNavbar">
+  <h2 class="title">{{ isEditMode ? 'Editar Usuario' : 'Crear Usuario' }}</h2>
+</div>
+
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()" class="formContainer">
+  <div class="formControl">
+    <label for="name">Nombre</label>
+    <input id="name" formControlName="name" class="inputField" />
+    <div *ngIf="userForm.get('name')?.invalid && userForm.get('name')?.touched" class="errorMessage">
+      El nombre es requerido.
+    </div>
+  </div>
+
+  <div class="formControl">
+    <label for="email">Email</label>
+    <input id="email" formControlName="email" class="inputField" />
+    <div *ngIf="userForm.get('email')?.invalid && userForm.get('email')?.touched" class="errorMessage">
+      <div *ngIf="userForm.get('email')?.errors?.['required']">
+        El email es requerido.
+      </div>
+      <div *ngIf="userForm.get('email')?.errors?.['email']">
+        Debe ser un email válido.
+      </div>
+    </div>
+  </div>
+
+  <div class="formControl">
+    <label for="phone">Teléfono</label>
+    <input id="phone" formControlName="phone" class="inputField" />
+    <div *ngIf="userForm.get('phone')?.invalid && userForm.get('phone')?.touched" class="errorMessage">
+      El teléfono es requerido.
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="userForm.invalid" class="formButton">{{ isEditMode ? 'Actualizar' : 'Crear' }}</button>
+  <button type="button" (click)="onCancel()" class="formButton">Cancelar</button>
+</form>

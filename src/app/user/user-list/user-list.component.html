@@ -1,0 +1,17 @@
+<div class="fixedNavbar">
+  <h2 class="title">Lista de Usuarios</h2>
+</div>
+
+<div class="listContainer">
+  <ul class="userList">
+    <li *ngFor="let user of users$ | async" class="userItem">
+      <span>{{ user.name }}</span>
+      <div class="buttonContainer">
+        <button class="formButton" [routerLink]="['/users', user.id]">Detalles</button>
+        <button class="formButton" [routerLink]="['/users/edit', user.id]">Editar</button>
+        <button class="formButton" (click)="deleteUser(user.id)">Eliminar</button>
+      </div>
+    </li>
+  </ul>
+  <button class="formButton" [routerLink]="['/users/new']">Crear Nuevo Usuario</button>
+</div>

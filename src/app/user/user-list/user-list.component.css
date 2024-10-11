@@ -1,0 +1,117 @@
+/* Barra superior fija para el título */
+.fixedNavbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 51;
+  background: linear-gradient(to bottom, rgba(59, 130, 246, 0.29), rgba(0, 0, 0, 0.2)); /* Degradado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.4);
+  border-color: #5a9cff;
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  padding: 15px;
+  text-align: center; /* Centrar el texto */
+}
+
+.title {
+  color: #f9f7f7;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 3px 6px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.listContainer {
+  margin: 100px auto 0 auto; /* Espacio debajo del navbar */
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #5a5959;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, rgba(155, 171, 194, 0.9), rgba(0, 0, 0, 0.1))!important;
+}
+
+@media (max-width: 768px) {
+.listContainer {
+  max-width: 280px;
+
+}
+}
+
+
+.userList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.userItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contenedor para los botones, en fila */
+.buttonContainer {
+  display: flex;
+  gap: 10px; /* Espacio entre los botones */
+  justify-content: flex-start;
+}
+
+.userItem span {
+  font-size: 18px;
+  color: #ebe9e9;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para los botones */
+.formButton {
+  color: #f9f7f7;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid rgba(59, 130, 256, 0.12);
+  border-radius: 0.5rem;
+  background-color: #5a9cff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 3px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #75bcc7;
+  color: #fff;
+  border: 1px solid #5a9cff;
+}
+
+.formButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .userItem {
+    flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    align-items: flex-start; /* Alinear al inicio */
+  }
+
+  .formButton {
+    width: 100%; /* Hacer que los botones ocupen todo el ancho */
+    margin-bottom: 10px; /* Espacio entre los botones en pantallas pequeñas */
+  }
+
+  .buttonContainer {
+    flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    width: 100%;
+  }
+
+  .userItem span {
+    font-size: 16px; /* Ajustar el tamaño del texto en pantallas pequeñas */
+    padding-bottom: 0.5rem;
+  }
+}

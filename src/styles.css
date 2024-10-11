@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Definir las variables de color */
+  --color-background: #f0f4f8; /* Color de fondo */
+  --color-text: #333;          /* Color del texto */
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
