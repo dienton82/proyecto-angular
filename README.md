@@ -1,22 +1,39 @@
-# ProyectoLimpio
+# Proyecto de Gestión de Usuarios en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+Este proyecto es una aplicación web desarrollada con **Angular** que te permite gestionar usuarios: crearlos, editarlos, eliminarlos y ver detalles sobre ellos, además de ver los módulos asignados a cada usuario. Incluye pruebas para asegurar que todo funcione correctamente usando **Jasmine/Karma** para las pruebas de funcionalidad, y **Cypress** para simular lo que haría un usuario real en la aplicación.
 
-## Development server
+## Características principales
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Crear, ver, editar y eliminar usuarios.
+- Integración con la API de **JSONPlaceholder** para obtener datos de usuarios y módulos.
+- Diseño moderno y adaptado para todo tipo de pantallas (responsivo).
+- Pruebas automáticas para asegurar que todo funcione bien.
 
-## Code scaffolding
+# Cómo instalar y ejecutar el proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requisitos
+- Node.js (versión 14 o superior)
+- npm (la herramienta que viene con Node.js)
+- Angular CLI (opcional pero recomendado)
+- Puedes instalarlo con el siguiente comando:
+  <br> `npm install -g @angular/cli`
 
-## Build
+# Instalación del proyecto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Descarga el proyecto (Clonar el repositorio):
+`git clone https://github.com/usuario/proyecto-angular-limpio.git`
+## Entra en la carpeta del proyecto:
+`cd proyecto-angular-limpio`
+## Instala las dependencias (paquetes necesarios):
+`npm install`
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Cómo iniciar el proyecto
+
+## Levanta el servidor de desarrollo:
+`ng serve --port 4301`
+<br><br>**Abre el navegador en** `http://localhost:4301` **para ver la aplicación funcionando.**
+
 
 ## Running end-to-end tests
 
