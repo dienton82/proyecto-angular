@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]  // Asegúrate de que Cypress sea reconocido en las pruebas
+  },
+  "include": [
+    "**/*.ts"  // Incluye todos los archivos TypeScript dentro de la carpeta cypress
+  ]
+}
