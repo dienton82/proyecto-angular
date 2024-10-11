@@ -1,3 +1,12 @@
+## Capturas de pantalla
+
+- **Pantalla principal de la aplicación**  
+![Pantalla principal](src/assets/screenshots/1.jpg)
+
+
+
+
+
 # Proyecto de Gestión de Usuarios en Angular
 
 Este proyecto es una aplicación web desarrollada con **Angular** que te permite gestionar usuarios: crearlos, editarlos, eliminarlos y ver detalles sobre ellos, además de ver los módulos asignados a cada usuario. Incluye pruebas para asegurar que todo funcione correctamente usando **Jasmine/Karma** para las pruebas de funcionalidad, y **Cypress** para simular lo que haría un usuario real en la aplicación.
@@ -45,7 +54,8 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 
 ###	Para correr las pruebas:
 `ng test`
-
+- **Ejemplo de pruebas E2E con Cypress**  
+![Pruebas E2E](src/assets/screenshots/gif.gif)
 
 ## Pruebas E2E con Cypress
 
