@@ -4,7 +4,8 @@
 ![Pantalla principal](src/assets/screenshots/1.jpg)
 
 
-
+- **Pantalla principal de la aplicación**  
+![Pruebas E2E](src/assets/screenshots/gif3.gif)
 
 
 # Proyecto de Gestión de Usuarios en Angular
@@ -54,8 +55,7 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 
 ###	Para correr las pruebas:
 `ng test`
-- **Ejemplo de pruebas Jasmine/Karma**  
-![Pruebas E2E](src/assets/screenshots/.gif)
+
 
 ## Pruebas E2E con Cypress
 
