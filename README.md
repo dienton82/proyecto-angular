@@ -25,13 +25,17 @@ Este proyecto es una aplicación web desarrollada con **Angular** que te permite
 ## Capturas de pantalla o GIFs**:  
 - Capturas de pantalla, GIFs del funcionamiento de la aplicación y de las pruebas E2E, Jasmine/Karma y unitarias, guardadas en la carpeta `assets/screenshots`.
 
-## Características principales
+## 📈 Características destacadas
 
-- Crear, ver, editar y eliminar usuarios.
-- Integración con la API de **JSONPlaceholder** para obtener datos de usuarios y módulos.
-- Diseño moderno y adaptado para todo tipo de pantallas (responsivo).
-- Pruebas automáticas para asegurar que todo funcione bien.
+- ➕ Crear, editar y eliminar usuarios
+- 📋 Visualización de detalles y módulos asignados
+- 📆 Interfaz responsiva con Tailwind CSS
+- 🧪 Pruebas unitarias con Jasmine/Karma
+- 🌐 Pruebas E2E con Cypress
+- ⚠️ Manejo de errores y confirmaciones personalizadas
+- 🚀 Compatible con navegadores modernos
 
+---
 # Cómo instalar y ejecutar el proyecto
 
 ## Requisitos
@@ -98,8 +102,56 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 - **environments/**: Archivos de configuración para los entornos de desarrollo y producción.
 - **styles.css**: Archivo de estilos globales para toda la aplicación.
 
- # Autor
-Este proyecto fue desarrollado por **Yeison Eduardo Alvarez Garcia**
+## 🗂️ Estructura del proyecto
+
+```
+proyecto-angular-limpio/
+├── src/
+│   ├── app/
+│   │   ├── core/         # Servicios (InMemory, Módulos)
+│   │   ├── footer/       # Componente global de pie de página
+│   │   ├── shared/       # Componentes reutilizables (FollowCursor)
+│   │   ├── user/         # CRUD de usuarios y vistas
+│   │   ├── app.component.ts
+│   │   └── app.routes.ts # Configuración de rutas
+│   ├── assets/           # Imágenes y recursos
+│   ├── environments/     # Variables de entorno
+│   └── styles.css        # Estilos globales
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 📸 Capturas
+
+Las capturas y grabaciones de las pruebas E2E (Cypress), Jasmine/Karma y la interfaz se encuentran en:
+
+```
+src/assets/screenshots/
+```
+
+---
+
+## 👤 Autor
+
+Desarrollado por **Yeison Eduardo Alvarez Garcia**
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia **MIT**.
+
+---
+
+## ✨ Gracias por visitar
+
+Si deseas contribuir, detectar errores o sugerir mejoras, abre un *issue* en el repositorio.
+
+⚡ ¡Gracias por probar el Proyecto de Gestión de Usuarios en Angular!
 
 
 
