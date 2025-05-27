@@ -20,7 +20,7 @@
 
 ## 🚀 Descripción
 
-Aplicación web desarrollada con **Angular** para la gestión de usuarios. Permite crear, editar, eliminar y visualizar usuarios, junto con los módulos asignados. El proyecto está diseñado como una SPA, optimizado para desplegarse en **GitHub Pages**.
+Este proyecto es una aplicación web desarrollada con Angular que te permite gestionar usuarios: crearlos, editarlos, eliminarlos y ver detalles sobre ellos, además de ver los módulos asignados a cada usuario. Incluye pruebas para asegurar que todo funcione correctamente usando Jasmine/Karma para las pruebas de funcionalidad, y Cypress para simular lo que haría un usuario real en la aplicación. El proyecto está diseñado como una SPA, optimizado para desplegarse en **GitHub Pages**.
 
 
 ## 📈 Características destacadas
