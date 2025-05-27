@@ -18,12 +18,10 @@
 ![Pruebas E2E](src/assets/screenshots/gif3.gif)
 
 
-# Proyecto de Gestión de Usuarios en Angular
+## 🚀 Descripción
 
-Este proyecto es una aplicación web desarrollada con **Angular** que te permite gestionar usuarios: crearlos, editarlos, eliminarlos y ver detalles sobre ellos, además de ver los módulos asignados a cada usuario. Incluye pruebas para asegurar que todo funcione correctamente usando **Jasmine/Karma** para las pruebas de funcionalidad, y **Cypress** para simular lo que haría un usuario real en la aplicación.
+Aplicación web desarrollada con **Angular** para la gestión de usuarios. Permite crear, editar, eliminar y visualizar usuarios, junto con los módulos asignados. El proyecto está diseñado como una SPA, optimizado para desplegarse en **GitHub Pages**.
 
-## Capturas de pantalla o GIFs**:  
-- Capturas de pantalla, GIFs del funcionamiento de la aplicación y de las pruebas E2E, Jasmine/Karma y unitarias, guardadas en la carpeta `assets/screenshots`.
 
 ## 📈 Características destacadas
 
