@@ -11,7 +11,7 @@
 ## Capturas de pantalla
 
 - **Pantalla principal de la aplicación**  
-![Pantalla principal](src/assets/screenshots/1.jpg)
+![Pantalla principal](src/assets/angular.webp)
 
 
 - **Pantalla principal de la aplicación**  
