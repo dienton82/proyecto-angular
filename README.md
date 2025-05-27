@@ -10,7 +10,7 @@
 
 ## Capturas de pantalla
 
-- **Pantalla principal de la aplicación**  
+- **Pantallas de la aplicación**  
 ![Pantalla principal](src/assets/screenshots/angular.webp)
 
 
