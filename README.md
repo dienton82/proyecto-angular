@@ -10,11 +10,11 @@
 
 ## 📷 Capturas de pantalla
 
-- **Pantallas de la aplicación**  
+- 📷 Pantallas de la aplicación**  
 ![Pantalla principal](src/assets/screenshots/angular.webp)
 
 
-- ** 📷 CapturasPantalla principal de la aplicación**  
+-  📷 CapturasPantalla principal de la aplicación**  
 ![Pruebas E2E](src/assets/screenshots/gif3.gif)
 
 
@@ -68,7 +68,7 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 ###	Para correr las pruebas:
 `ng test`
 
-- ** 📷 Ejemplo de pruebas  Jasmine/Karma**   
+- 📷 Ejemplo de pruebas  Jasmine/Karma**   
 ![Pruebas E2E](src/assets/screenshots/6.jpg)
 
 
@@ -78,7 +78,7 @@ Este proyecto usa **Jasmine** para hacer pruebas unitarias (para checar que cada
 `npm install cypress --save-dev`
 
 
-- ** 📷 Ejemplo de pruebas E2E con Cypress**  
+- 📷 Ejemplo de pruebas E2E con Cypress**  
 ![Pruebas E2E](src/assets/screenshots/gif2.gif)
 
 
